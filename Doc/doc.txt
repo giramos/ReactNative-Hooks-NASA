@@ -1,0 +1,21 @@
+aPI nasa: yJELY9Eeyb9HqvwpCERYo7cq5yJDE3ZPSLbnbfLU
+
+para obtener la api de la nasa: https://api.nasa.gov/
+
+generear un correo electronico de 10 minutos de duracion: https://10minutemail.com/
+
+APOD: nos prevee de una imagen del dia de las estrellas
+    * documentacion oficial: https://github.com/nasa/apod-api
+    * Endpoint: /<version>/apod 
+    * start_date y end_date: rango de dias para establecer (fun)
+    * returned fields
+
+Postman
+
+Creamos el proyecto: > npx create-expo-app@latest NasaApp  
+Nos vamos a la carpeta generada y tecleamos:
+npm start
+Instalacion de librerua: npm install date-fns --save
+
+NOTA: tuviste problemas al incorporar la navegacion
+    * Solucion -> NavigationIndependentTree
